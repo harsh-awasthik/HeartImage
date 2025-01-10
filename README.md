@@ -21,11 +21,11 @@ In this, I colored the hearts directly in the code itself, removing the dependen
 - Give a Start **(IMPORTANT)**
 
 ### Examples:
-- Image1:
-    ![Normal Image](ignore/10.png) 
-    ![Heartified](ignore/11.png)
-    ![Zoomed](ignore/12.png)
-- Imgae2:
+- **Image1:**
+    - ![Normal Image](ignore/10.png) 
+    - ![Heartified](ignore/11.png)
+    - ![Zoomed](ignore/12.png)
+- **Imgae2:**
     ![Image2](ignore/21.png)
-- Image3:
+- **Image3:**
     ![Image3](ignore/31.png)
