@@ -1,0 +1,266 @@
+if 0<b<49 and 0<g<49 and 0<r<49:
+    return 'black'
+if 0<b<49 and 0<g<49 and 50<r<99:
+    return 'brown'
+if 0<b<49 and 0<g<49 and 100<r<149:
+    return 'brown'
+if 0<b<49 and 0<g<49 and 150<r<199:
+    return 'red'
+if 0<b<49 and 0<g<49 and 200<r<255:
+    return 'red'
+if 0<b<49 and 50<g<99 and 0<r<49:
+    return 'green'
+if 0<b<49 and 50<g<99 and 50<r<99:
+    return 'green'
+if 0<b<49 and 50<g<99 and 100<r<149:
+    return 'orange'
+if 0<b<49 and 50<g<99 and 150<r<199:
+    return 'orange'
+if 0<b<49 and 50<g<99 and 200<r<255:
+    return 'orange'
+if 0<b<49 and 100<g<149 and 0<r<49:
+    return 'green'
+if 0<b<49 and 100<g<149 and 50<r<99:
+    return 'green'
+if 0<b<49 and 100<g<149 and 100<r<149:
+    return 'green'
+if 0<b<49 and 100<g<149 and 150<r<199:
+    return 'yellow'
+if 0<b<49 and 100<g<149 and 200<r<255:
+    return 'orange'
+if 0<b<49 and 150<g<199 and 0<r<49:
+    return 'green'
+if 0<b<49 and 150<g<199 and 50<r<99:
+    return 'green'
+if 0<b<49 and 150<g<199 and 100<r<149:
+    return 'green'
+if 0<b<49 and 150<g<199 and 150<r<199:
+    return 'yellow'
+if 0<b<49 and 150<g<199 and 200<r<255:
+    return 'yellow'
+if 0<b<49 and 200<g<255 and 0<r<49:
+    return 'green'
+if 0<b<49 and 200<g<255 and 50<r<99:
+    return 'green'
+if 0<b<49 and 200<g<255 and 100<r<149:
+    return 'green'
+if 0<b<49 and 200<g<255 and 150<r<199:
+    return 'yellow'
+if 0<b<49 and 200<g<255 and 200<r<255:
+    return 'yellow'
+if 50<b<99 and 0<g<49 and 0<r<49:
+    return 'blue'
+if 50<b<99 and 0<g<49 and 50<r<99:
+    return 'purple'
+if 50<b<99 and 0<g<49 and 100<r<149:
+    return 'purple'
+if 50<b<99 and 0<g<49 and 150<r<199:
+    return 'pink'
+if 50<b<99 and 0<g<49 and 200<r<255:
+    return 'pink'
+if 50<b<99 and 50<g<99 and 0<r<49:
+    return 'grey'
+if 50<b<99 and 50<g<99 and 50<r<99:
+    return 'grey'
+if 50<b<99 and 50<g<99 and 100<r<149:
+    return 'pink'
+if 50<b<99 and 50<g<99 and 150<r<199:
+    return 'pink'
+if 50<b<99 and 50<g<99 and 200<r<255:
+    return 'red'
+if 50<b<99 and 100<g<149 and 0<r<49:
+    return 'green'
+if 50<b<99 and 100<g<149 and 50<r<99:
+    return 'green'
+if 50<b<99 and 100<g<149 and 100<r<149:
+    return 'grey'
+if 50<b<99 and 100<g<149 and 150<r<199:
+    return 'brown'
+if 50<b<99 and 100<g<149 and 200<r<255:
+    return 'brown'
+if 50<b<99 and 150<g<199 and 0<r<49:
+    return 'green'
+if 50<b<99 and 150<g<199 and 50<r<99:
+    return 'green'
+if 50<b<99 and 150<g<199 and 100<r<149:
+    return 'green'
+if 50<b<99 and 150<g<199 and 150<r<199:
+    return 'yellow'
+if 50<b<99 and 150<g<199 and 200<r<255:
+    return 'orange'
+if 50<b<99 and 200<g<255 and 0<r<49:
+    return 'green'
+if 50<b<99 and 200<g<255 and 50<r<99:
+    return 'green'
+if 50<b<99 and 200<g<255 and 100<r<149:
+    return 'green'
+if 50<b<99 and 200<g<255 and 150<r<199:
+    return 'yellow'
+if 50<b<99 and 200<g<255 and 200<r<255:
+    return 'yellow'
+if 100<b<149 and 0<g<49 and 0<r<49:
+    return 'blue'
+if 100<b<149 and 0<g<49 and 50<r<99:
+    return 'purple'
+if 100<b<149 and 0<g<49 and 100<r<149:
+    return 'purple'
+if 100<b<149 and 0<g<49 and 150<r<199:
+    return 'pink'
+if 100<b<149 and 0<g<49 and 200<r<255:
+    return 'pink'
+if 100<b<149 and 50<g<99 and 0<r<49:
+    return 'blue'
+if 100<b<149 and 50<g<99 and 50<r<99:
+    return 'blue'
+if 100<b<149 and 50<g<99 and 100<r<149:
+    return 'purple'
+if 100<b<149 and 50<g<99 and 150<r<199:
+    return 'pink'
+if 100<b<149 and 50<g<99 and 200<r<255:
+    return 'pink'
+if 100<b<149 and 100<g<149 and 0<r<49:
+    return 'green'
+if 100<b<149 and 100<g<149 and 50<r<99:
+    return 'grey'
+if 100<b<149 and 100<g<149 and 100<r<149:
+    return 'grey'
+if 100<b<149 and 100<g<149 and 150<r<199:
+    return 'pink'
+if 100<b<149 and 100<g<149 and 200<r<255:
+    return 'brown'
+if 100<b<149 and 150<g<199 and 0<r<49:
+    return 'green'
+if 100<b<149 and 150<g<199 and 50<r<99:
+    return 'green'
+if 100<b<149 and 150<g<199 and 100<r<149:
+    return 'green'
+if 100<b<149 and 150<g<199 and 150<r<199:
+    return 'grey'
+if 100<b<149 and 150<g<199 and 200<r<255:
+    return 'orange'
+if 100<b<149 and 200<g<255 and 0<r<49:
+    return 'green'
+if 100<b<149 and 200<g<255 and 50<r<99:
+    return 'green'
+if 100<b<149 and 200<g<255 and 100<r<149:
+    return 'green'
+if 100<b<149 and 0<g<49 and 150<r<199:
+    return 'purple'
+if 100<b<149 and 0<g<49 and 200<r<255:
+    return 'pink'
+if 100<b<149 and 50<g<99 and 150<r<199:
+    return 'pink'
+if 100<b<149 and 50<g<99 and 200<r<255:
+    return 'pink'
+if 100<b<149 and 100<g<149 and 150<r<199:
+    return 'grey'
+if 100<b<149 and 100<g<149 and 200<r<255:
+    return 'pink'
+if 100<b<149 and 150<g<199 and 150<r<199:
+    return 'green'
+if 100<b<149 and 150<g<199 and 200<r<255:
+    return 'yellow'
+if 100<b<149 and 200<g<255 and 150<r<199:
+    return 'green'
+if 100<b<149 and 200<g<255 and 200<r<255:
+    return 'yellow'
+if 150<b<199 and 0<g<49 and 0<r<49:
+    return 'blue'
+if 150<b<199 and 0<g<49 and 50<r<99:
+    return 'blue'
+if 150<b<199 and 0<g<49 and 100<r<149:
+    return 'purple'
+if 150<b<199 and 0<g<49 and 150<r<199:
+    return 'pink'
+if 150<b<199 and 0<g<49 and 200<r<255:
+    return 'pink'
+if 150<b<199 and 50<g<99 and 0<r<49:
+    return 'blue'
+if 150<b<199 and 50<g<99 and 50<r<99:
+    return 'blue'
+if 150<b<199 and 50<g<99 and 100<r<149:
+    return 'purple'
+if 150<b<199 and 50<g<99 and 150<r<199:
+    return 'pink'
+if 150<b<199 and 50<g<99 and 200<r<255:
+    return 'pink'
+if 150<b<199 and 100<g<149 and 0<r<49:
+    return 'lblue'
+if 150<b<199 and 100<g<149 and 50<r<99:
+    return 'lblue'
+if 150<b<199 and 100<g<149 and 100<r<149:
+    return 'lblue'
+if 150<b<199 and 100<g<149 and 150<r<199:
+    return 'pink'
+if 150<b<199 and 100<g<149 and 200<r<255:
+    return 'pink'
+if 150<b<199 and 150<g<199 and 0<r<49:
+    return 'lblue'
+if 150<b<199 and 150<g<199 and 50<r<99:
+    return 'lblue'
+if 150<b<199 and 150<g<199 and 100<r<149:
+    return 'lblue'
+if 150<b<199 and 150<g<199 and 150<r<199:
+    return 'grey'
+if 150<b<199 and 150<g<199 and 200<r<255:
+    return 'pink'
+if 150<b<199 and 200<g<255 and 0<r<49:
+    return 'green'
+if 150<b<199 and 200<g<255 and 50<r<99:
+    return 'green'
+if 150<b<199 and 200<g<255 and 100<r<149:
+    return 'green'
+if 150<b<199 and 200<g<255 and 150<r<199:
+    return 'green'
+if 150<b<199 and 200<g<255 and 200<r<255:
+    return 'yellow'
+if 200<b<255 and 0<g<49 and 0<r<49:
+    return 'blue'
+if 200<b<255 and 0<g<49 and 50<r<99:
+    return 'blue'
+if 200<b<255 and 0<g<49 and 100<r<149:
+    return 'purple'
+if 200<b<255 and 0<g<49 and 150<r<199:
+    return 'purple'
+if 200<b<255 and 0<g<49 and 200<r<255:
+    return 'pink'
+if 200<b<255 and 50<g<99 and 0<r<49:
+    return 'blue'
+if 200<b<255 and 50<g<99 and 50<r<99:
+    return 'blue'
+if 200<b<255 and 50<g<99 and 100<r<149:
+    return 'purple'
+if 200<b<255 and 50<g<99 and 150<r<199:
+    return 'pink'
+if 200<b<255 and 50<g<99 and 200<r<255:
+    return 'pink'
+if 200<b<255 and 100<g<149 and 0<r<49:
+    return 'blue'
+if 200<b<255 and 100<g<149 and 50<r<99:
+    return 'lblue'
+if 200<b<255 and 100<g<149 and 100<r<149:
+    return 'lblue'
+if 200<b<255 and 100<g<149 and 150<r<199:
+    return 'pink'
+if 200<b<255 and 100<g<149 and 200<r<255:
+    return 'pink'
+if 200<b<255 and 150<g<199 and 0<r<49:
+    return 'lblue'
+if 200<b<255 and 150<g<199 and 50<r<99:
+    return 'lblue'
+if 200<b<255 and 150<g<199 and 100<r<149:
+    return 'lblue'
+if 200<b<255 and 150<g<199 and 150<r<199:
+    return 'grey'
+if 200<b<255 and 150<g<199 and 200<r<255:
+    return 'pink'
+if 200<b<255 and 200<g<255 and 0<r<49:
+    return 'lblue'
+if 200<b<255 and 200<g<255 and 50<r<99:
+    return 'lblue'
+if 200<b<255 and 200<g<255 and 100<r<149:
+    return 'lblue'
+if 200<b<255 and 200<g<255 and 150<r<199:
+    return 'white'
+if 200<b<255 and 200<g<255 and 200<r<255:
+    return 'white'
